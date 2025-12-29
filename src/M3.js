@@ -45,8 +45,9 @@ export default function M3(){
     }
     return(
         <>
+        <center>
         <h1>employee form</h1>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} >
             FIRST NAME: <input type="text"
                     value={fname}
                     required
@@ -117,6 +118,6 @@ export default function M3(){
                 }
             </tbody>
         </table>
-    
+    </center>
     </>)
 }
